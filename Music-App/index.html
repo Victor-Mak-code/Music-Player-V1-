@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Music Player App V1</title>
+</head>
+<body>
+<div class="primary-headers">
+
+      <div class="text-headers">
+        <h1 class="header-name">iPlay tunes</h1>
+        <p class="header-tag">Where Music Lives</p>
+      </div>
+
+        <div class="buttons">
+            <button class="btn btn-white">Sign Up</button>
+            <button class="btn btn-yellow">Login</button>
+        </div>
+
+
+        <div class="music-container">
+            
+            <div class="img-container">
+                <img src="images/matters.jpg" alt="cover-img" class="cover">
+            </div>
+
+
+            <audio src="" id="audio"></audio>
+
+
+            <div class="music-info">
+                <h2 id="artist-name"></h2>
+                <p id="song-name"></p>
+            </div>
+
+
+
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            
+
+            <div class="nav-buttons">
+                <button id="prev"><i class="fa fa-backward" aria-hidden="true"></i></i></button>
+                <button id="play"><i class="fa fa-play" aria-hidden="true"></i></button>
+                <button id="next"><i class="fa fa-forward" aria-hidden="true"></i></i></button>
+            </div>
+        </div>
+        
+</div>
+    
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
